@@ -13,7 +13,7 @@ shinyUI(navbarPage("Gauge that gauge!",
                                                    max = max(wool$sts, na.rm=TRUE), 
                                                    value = 15),
                                        # value = round(mean(wool$sts, na.rm=TRUE),0)),
-                                       p("How many stitches are there in your swatch (10 cm/4 inches)?")
+                                       p("How many stitches are there in the swatch (10 cm/4 inches)?")
                                 ),
                                 column(4, 
                                        radioButtons("inRadio", h4("2. Select needle sizes"),
