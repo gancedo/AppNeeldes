@@ -66,7 +66,7 @@ shinyUI(navbarPage("Gauge that gauge!",
                    
                    tabPanel("Help",
                             HTML("<h5>This Shiny application lets you check the recommended needle size
-                                     of a knititng pattern against the standard gauge swatches provided by  
+                                     of a knitting pattern against the standard gauge swatches provided by  
                                  several yarn manufacturers.</h5>"),
                             fluidRow(
                                 
